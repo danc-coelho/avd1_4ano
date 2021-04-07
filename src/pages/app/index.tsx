@@ -1,6 +1,6 @@
 import React from "react";
 import { Reset } from "./styles";
-import Home from "../home";
+import Home from "../pagina";
 
 const App: React.FC = () => (
   <>

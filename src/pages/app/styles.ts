@@ -1,22 +1,32 @@
 import { createGlobalStyle } from "styled-components/macro";
 
 export const Reset = createGlobalStyle`
-  *{
-    border: 0;
-    margin: 0;
-    padding: 0;
-  }
+* {
+     margin: 0;
+     padding: 0;
+     outline: 0;
+     box-sizing: border-box;
+}
 
-  body{
-    background-color: #212121;
-  }
+body {
+     background: lightblue;
+     -webkit-font-smoothing: antialiased;
+}
 
-  a, a:link, a:visited, a:hover{
-    text-decoration: none;
-  }
+body, input, button {
+     font: 16px Arial, sans-serif;
+}
 
-  ul, ol, li{
-    list-style: none;
-  }
+#root {
+     max-width: 960px;
+     margin: 0 auto;
+     padding: 40px 20px;
+}
 
+button {
+     cursor: pointer;
+}
+ul {
+  text-decoration: none; 
+}
 `;
